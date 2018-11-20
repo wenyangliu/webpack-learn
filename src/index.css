@@ -1,6 +1,5 @@
 body {
-    background: yellow;
-    transform: translate(45deg);
+    background: url("./asset/images/1445706249-58b982287bf1c.jpg") repeat-y;
 }
 
 .w {

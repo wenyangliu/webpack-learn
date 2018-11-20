@@ -55,6 +55,16 @@ module.exports = {
                     {loader: 'css-loader'},
                     {loader: 'postcss-loader'}
                 ]
+            },
+            {
+                test: /\.(jpg|png|gif)$/,
+                use: [{
+                    loader: 'url-loader',
+                    options: {
+                        limit: 10000, // 表示小于10kb的图片转为base64,大于10kb的是路径
+                        outputPath: 'images' //定义输出的图片文件夹
+                    }
+                }]
             }
         ]
     }, // 模块配置

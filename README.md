@@ -25,6 +25,11 @@ npx webpack
 style-loader css-loader less less-loader
 ```
 
+## 图片处理
+```$xslt
+url-loader file-loader
+```
+
 ## 学习到的插件
 
 1. html-webpack-plugin  Html插件
