@@ -1,5 +1,7 @@
-body {
-    background: url("./asset/images/1445706249-58b982287bf1c.jpg") repeat-y;
+.bg {
+    height: 400px;
+    width: 400px;
+    /*background: url("./asset/images/1.jpg") no-repeat;*/
 }
 
 .w {
